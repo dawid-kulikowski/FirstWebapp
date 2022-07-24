@@ -10,6 +10,7 @@ public class PhoneServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("get test");
+        response.setStatus(550);
     }
 
     @Override
